@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-plugins",
+  "description": "Personal Claude Code plugins",
+  "owner": {
+    "name": "eckertliam"
+  },
+  "plugins": [
+    {
+      "name": "devplan",
+      "description": "File-based development planning. Create, follow, and update persistent plan files in the working directory.",
+      "source": "./plugins/devplan",
+      "category": "productivity"
+    }
+  ]
+}
